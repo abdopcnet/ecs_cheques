@@ -1,7 +1,15 @@
-## ECS Cheques
+```
+cd frappe-bench
+```
 
-Custom App For Cheques
+```
+bench get-app https://github.com/abdopcnet/ecs_cheques.git
+```
 
-#### License
+```
+bench --site test14 install-app ecs_cheques
+```
 
-MIT
+```
+bench migrate
+```
